@@ -1,0 +1,54 @@
+/* Warm Tone Palette Variables */
+:root {
+    --primary: #E67E22;
+    --secondary: #F39C12;
+    --bg-color: #FFF8F0;
+    --sidebar-bg: #2C1810;
+    --accent: #D35400;
+    --text-color: #3E2723;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--accent);
+    border-color: var(--accent);
+}
+
+.bg-primary-warm {
+    background-color: var(--primary) !important;
+}
+
+.sidebar {
+    background-color: var(--sidebar-bg);
+    color: #fff;
+    min-height: 100vh;
+}
+
+.sidebar a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.sidebar a:hover, .sidebar a.active {
+    background-color: var(--primary);
+    color: white;
+}
+
+/* Auth Cards */
+.auth-card {
+    background-color: #fff;
+    border-top: 5px solid var(--primary);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
